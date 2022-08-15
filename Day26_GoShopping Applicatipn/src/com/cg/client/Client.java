@@ -10,9 +10,9 @@ import com.cg.framework.ShopFactory;
 public class Client {
 
 	public static void main(String[] args) {
-		ShopFactory s=new GSShopFactory();
+	ShopFactory s=new GSShopFactory();
 		PrimeAcc p=new GSPrimeAcc(3245, "Ashlesha", 300, true);
-		NormalAcc n=new GSNormalAcc(1221, "Dhiraj",750 , 500);
+		NormalAcc n=new GSNormalAcc(1221, "Ashvini",750 , 500);
 		//for normal account
 		System.out.println("Prime Account:");
 		p.bookProduct(p.getCharges());
